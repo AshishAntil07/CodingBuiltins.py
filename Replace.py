@@ -1,8 +1,8 @@
-string = input("Enter your string: ")
-wordToReplace = input("Word to replace: ")
-wordToReplaceWith = input("Word to replace with: ")
-
-print(string.replace(wordToReplace, wordToReplaceWith))
+if(__name__ == '__main__'):
+  string = input("Enter your string: ")
+  wordToReplace = input("Word to replace: ")
+  wordToReplaceWith = input("Word to replace with: ")
+  print(string.replace(wordToReplace, wordToReplaceWith))
 
 # 💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻 Making our own replace function 💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻
 
@@ -28,5 +28,6 @@ def replace(string, toReplace, replaceWith):
     count+=1
   return replacedString
   # NOTE: Our replace function doesn't change the original string.
-
-print(replace(string, wordToReplace, wordToReplaceWith))
+if(__name__ == '__main__'):
+  print(replace(string, wordToReplace, wordToReplaceWith))
+  
