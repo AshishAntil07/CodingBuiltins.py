@@ -1,3 +1,5 @@
+import replace from Replace
+
 string = input("Enter your string to format: ")
 formatStrings = []
 count = string.count("{")
