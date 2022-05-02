@@ -6,7 +6,8 @@ if(__name__ == '__main__'):
 
 # 💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻 Making our own replace function 💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻💪🏻
 
-def replace(string, toReplace, replaceWith):
+
+def replace(string, toReplace, replaceWith, repAll=True):
   count=0
   fore=""
   dummyString=""
@@ -20,6 +21,9 @@ def replace(string, toReplace, replaceWith):
         replacedString+="{}{}{}".format(fore, replaceWith, dummyString[len(toReplace+fore):dummyString.__len__()])
       else:
         replacedString+=f" {fore}{replaceWith}{dummyString[len(toReplace+fore):dummyString.__len__()]}"
+      if(repAll == False):
+        replacedString+=string[len(string[0:string.find(toReplace)]+toReplace+dummyString[len(toReplace+fore):dummyString.__len__()]):]
+        break
     else:
       if(count==0):
         replacedString+=dummyString
