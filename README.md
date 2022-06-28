@@ -23,8 +23,6 @@ MyString = format(MyString, 'table', 'fighting', 'floor')
 # MyString = format(MyString, ['table', 'fighting', 'floor'])
 print(MyString)
 
-# NOTE: Format function will use the above Replace function. Therefore, before you use format function, make sure that you have also imported the replace function.
-
 '''
 Output:
 They are fighting on the table on the floor.
