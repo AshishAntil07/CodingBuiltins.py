@@ -43,3 +43,6 @@ Output:
 22
 '''
 ```
+
+## License:
+This repository is licensed under [MIT License](https://github.com/AshishAntil07/CodingBuiltins.py/blob/main/LICENSE)
