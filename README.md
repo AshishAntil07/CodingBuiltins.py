@@ -2,8 +2,8 @@
 Coding some built-in functions in Python.<br>
 Here, you will get reduce function, replace function, format method(as a function).<br>
 
-## How to use:
-### Replace function:
+## How to use :
+### Replace function
 ```python
 MyString = 'They are fighting in the table in the floor.'
 MyString = replace(MyString, 'in', 'on')                            # 4th parameter will state whether all matches will be replaced or not, by default it is true.
@@ -15,7 +15,7 @@ They are fighting on the table on the floor.
 '''
 ```
 
-### Format function:
+### Format function
 ```python
 MyString = 'They are {1} on the {0} on the {2}.'
 MyString = format(MyString, 'table', 'fighting', 'floor')
@@ -29,7 +29,7 @@ They are fighting on the table on the floor.
 '''
 ```
 
-### Reduce function:
+### Reduce function
 ```python
 l = [1, 2, 3, 4, 5]
 def function(num1, num2):
@@ -44,5 +44,5 @@ Output:
 '''
 ```
 
-## License:
+## License :
 This repository is licensed under [MIT License](https://github.com/AshishAntil07/CodingBuiltins.py/blob/main/LICENSE)
