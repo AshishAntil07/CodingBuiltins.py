@@ -1,6 +1,6 @@
 <table align='center' border='0'><tr><td><img src='https://github.com/AshishAntil07/AshishAntil07/blob/home/5pointedStar.svg' height='65px' width='65px'></td> <td><h1>Coding Built-in Functions</h1></td></tr></table>
 Coding some built-in functions in Python.<br>
-Here, you will get reduce function, replace function, format method(as a function).<br>
+Here, you will get reduce function, replace function, format method(as a function), and many more!<br>
 
 ## How to use :
 ### Replace function
@@ -41,6 +41,28 @@ print(val)                            # if the length is greater than 2, then it
 '''
 Output:
 22
+'''
+```
+
+### List Flatter
+```python
+multiDimensional = [
+  'al;edg',
+  [289, [420, '29803age4', [2893]], 'glj'],
+  [2893, ['gj;la', ['28934'], 6903], 90],
+  2384,
+  [28347, [58023, [32409783, 532489, [50923, [258709], 198], 59], 7], 20, 59]
+]
+
+print(multiDimensional)
+print(flat(multiDimensional))
+
+'''
+Output:
+
+['al;edg', [289, [420, '29803age4', [2893]], 'glj'], [2893, ['gj;la', ['28934'], 6903], 90], 2384, [28347, [58023, [32409783, 532489, [50923, [258709], 198], 59], 7], 20, 59]]
+['al;edg', 289, 420, '29803age4', 2893, 'glj', 2893, 'gj;la', '28934', 6903, 90, 2384, 28347, 58023, 32409783, 532489, 
+50923, 258709, 198, 59, 7, 20, 59]
 '''
 ```
 
